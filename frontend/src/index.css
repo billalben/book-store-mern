@@ -4,10 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.html {
-  scroll-behavior: smooth;
+@layer components {
+  .btn-primary {
+    @apply px-8 py-2 text-base font-bold transition-all duration-200 rounded-md cursor-pointer bg-primary font-secondary hover:bg-secondary hover:text-white;
+  }
 }
 
-.btn-primary {
-  @apply px-12 py-2 text-base font-bold transition-all duration-200 rounded-md cursor-pointer bg-primary font-secondary hover:bg-secondary hover:text-white;
+.html {
+  scroll-behavior: smooth;
 }
