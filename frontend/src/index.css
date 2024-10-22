@@ -6,7 +6,7 @@
 
 @layer components {
   .btn-primary {
-    @apply px-8 py-2 text-base font-bold transition-all duration-200 rounded-md cursor-pointer bg-primary font-secondary hover:bg-secondary hover:text-white;
+    @apply px-8 py-2 text-base font-bold transition-colors rounded-md cursor-pointer bg-primary font-secondary hover:bg-secondary hover:text-white;
   }
 }
 
